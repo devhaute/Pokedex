@@ -1,7 +1,14 @@
 import SwiftUI
+import Kingfisher
 
 struct PokemonCell: View {
     let pokemon: Pokemon
+    let backgroundColor: Color
+    
+    init(pokemon: Pokemon) {
+        self.pokemon = pokemon
+        self.backgroundColor = Color(PokemonViewModel.backgroundColor(forType: pokemon.type))
+    }
     
     var body: some View {
         ZStack {
@@ -24,7 +31,7 @@ struct PokemonCell: View {
                         )
                         .frame(width: 100, height: 24)
                     
-                    Image(pokemon.imageUrl)
+                    KFImage(URL(string: pokemon.imageUrl))
                         .resizable()
                         .scaledToFit()
                         .frame(width: 68)
@@ -32,9 +39,9 @@ struct PokemonCell: View {
                 }
             }
         }
-        .background(Color.green)
+        .background(backgroundColor)
         .cornerRadius(12)
-        .shadow(color: .green, radius: 5, x: 0, y: 0)
+        .shadow(color: backgroundColor, radius: 5, x: 0, y: 0)
     }
 }
 

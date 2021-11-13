@@ -4,12 +4,13 @@ struct PokedexView: View {
     private let gridItems = [
         GridItem(.flexible()), GridItem(.flexible())
    ]
+    @StateObject var pokemonViewModel = PokemonViewModel()
     
     var body: some View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: gridItems, spacing: 20) {
-                    ForEach(Pokemon.MOCK_POKEMON) { pokemon in
+                    ForEach(pokemonViewModel.pokemon) { pokemon in
                         PokemonCell(pokemon: pokemon)
                     }
                 }
