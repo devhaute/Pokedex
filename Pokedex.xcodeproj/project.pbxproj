@@ -14,6 +14,7 @@
 		B4118564273FCB59009B159D /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4118563273FCB59009B159D /* PokemonCell.swift */; };
 		B4118566273FD1C4009B159D /* PokedexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4118565273FD1C4009B159D /* PokedexView.swift */; };
 		B4118568273FD709009B159D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4118567273FD709009B159D /* Pokemon.swift */; };
+		B411856B273FDFE8009B159D /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B411856A273FDFE8009B159D /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B4118563273FCB59009B159D /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
 		B4118565273FD1C4009B159D /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
 		B4118567273FD709009B159D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		B411856A273FDFE8009B159D /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		B4118562273FCACC009B159D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B411856A273FDFE8009B159D /* PokemonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				B4118568273FD709009B159D /* Pokemon.swift in Sources */,
 				B404F7DB273D6A47003EE46F /* ContentView.swift in Sources */,
+				B411856B273FDFE8009B159D /* PokemonViewModel.swift in Sources */,
 				B404F7D9273D6A47003EE46F /* PokedexApp.swift in Sources */,
 				B4118564273FCB59009B159D /* PokemonCell.swift in Sources */,
 				B4118566273FD1C4009B159D /* PokedexView.swift in Sources */,
