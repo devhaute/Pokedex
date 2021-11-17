@@ -15,6 +15,7 @@
 		B4118568273FD709009B159D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4118567273FD709009B159D /* Pokemon.swift */; };
 		B411856B273FDFE8009B159D /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B411856A273FDFE8009B159D /* PokemonViewModel.swift */; };
 		B411856E273FEAB8009B159D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B411856D273FEAB8009B159D /* Kingfisher */; };
+		B4519AAA274530D5006D7F28 /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4519AA9274530D5006D7F28 /* PokemonDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B4118565273FD1C4009B159D /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
 		B4118567273FD709009B159D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		B411856A273FDFE8009B159D /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		B4519AA9274530D5006D7F28 /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				B4118563273FCB59009B159D /* PokemonCell.swift */,
 				B4118565273FD1C4009B159D /* PokedexView.swift */,
+				B4519AA9274530D5006D7F28 /* PokemonDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				B411856B273FDFE8009B159D /* PokemonViewModel.swift in Sources */,
 				B404F7D9273D6A47003EE46F /* PokedexApp.swift in Sources */,
 				B4118564273FCB59009B159D /* PokemonCell.swift in Sources */,
+				B4519AAA274530D5006D7F28 /* PokemonDetail.swift in Sources */,
 				B4118566273FD1C4009B159D /* PokedexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
